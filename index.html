@@ -7,6 +7,12 @@
         <meta charset="UTF-8">
         <meta name="description" content="El restaurant de German Martitegui">
         <meta name="keywords" content="Restaurant, German, Martitegui, Tegui, La mar en coche">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/fontawesome.min.css">
+        <link rel="stylesheet" href="css/comun.css">
+        <link rel="stylesheet" href="css/restaurant.css">
     </head>
     <body>
         <header id="cielo">
@@ -15,25 +21,29 @@
                     Tegui
                 </a>
             </h1>
-            <ul>
-                <li>
-                    <a href="aclamados.html"> Los mas aclamados </a>
-                </li>
-                <li>
-                    <a href="chef.html"> El Chef </a>
-                </li>
-                <li>
-                    <a href="carta.html"> La Carta </a>
-                </li>
-                <li>
-                    <a href="informacion.html"> Información </a>
-                </li>
-            </ul>
+            <nav>
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-chevron-down"></i>
+                <ul>
+                    <li>
+                        <a href="aclamados.html"> Los mas aclamados </a>
+                    </li>
+                    <li>
+                        <a href="chef.html"> El Chef </a>
+                    </li>
+                    <li>
+                        <a href="carta.html"> La Carta </a>
+                    </li>
+                    <li>
+                        <a href="informacion.html"> Información </a>
+                    </li>
+                </ul>
+            </nav>
         </header>
         <main>
             <section>
                 <div>
-                    <img src="imagenes/resto01.jpg">
+                    <img src="imagenes/restaurant/resto01.jpg">
                 </div>
                 <div>
                     <h2>
@@ -46,7 +56,7 @@
             </section>
             <section>
                 <div>
-                    <video src=""></video>
+                    <iframe src="https://www.youtube.com/embed/2J-khZMTY4I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div>
                     <h2>
@@ -59,7 +69,7 @@
             </section>
             <section>
                 <div>
-                    <img src="imagenes/resto02.jpg">
+                    <img src="imagenes/restaurant/resto02.webp">
                 </div>
                 <div>
                     <h2>
@@ -75,7 +85,9 @@
             <p>
                 Copyright @2021 - Curso de Programación Web
             </p>
-            <a href="#cielo"> Cielo </a>
+            <a href="#cielo"> 
+                <i class="fas fa-cloud-upload-alt fa-2x"></i>    
+            </a>
         </footer>
     </body>
 </html>

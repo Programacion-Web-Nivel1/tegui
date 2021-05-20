@@ -1,0 +1,96 @@
+/* Todos los estilos que son comunes a todas las paginas de mi sitio */
+body {
+    margin: 0px;
+}
+
+img, video {
+    max-width: 100%;
+}
+
+iframe {
+    width: 100%;
+}
+
+header {
+    position: fixed;    /* Lo remueve del flujo normal, lo posiciona en funcion de la ventana del navegador, acompaña el scroll*/
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #000000;
+    color: #FFFFFC;
+    display: flex;  /* Permite acomodar los items que tiene adentro (el H1 y el nav)*/
+    justify-content: space-between;
+    padding: 0px 2%;
+}
+
+header h1 a {
+    font-family: 'Dancing Script', cursive;
+}
+
+header a {
+    color: #FFFFFC;
+    text-decoration: none;
+}
+
+header nav i {
+    margin-top: 21.5px;
+    font-size: 36px;
+}
+
+header nav ul {
+    display: none;
+    list-style: none;
+    position: absolute;
+    right: 0px;
+    background-color: #000000;
+    width: 100%;
+    border-top: 1px solid #FFFFFC;
+}
+
+header nav ul li {
+    padding: 5px;
+    text-align: right;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5em;
+}
+
+nav .fa-chevron-down {
+    display: none;
+}
+
+nav:hover .fa-bars {
+    display: none;
+}
+
+nav:hover .fa-chevron-down {
+    display: inline-block;
+}
+
+nav:hover ul {
+    display: block;
+}
+
+header nav ul li:hover {
+    background-color: #BEB7A4;
+}
+
+header nav ul li:hover a {
+    color: black;
+}
+
+footer {
+    position: relative;
+    border-top: 2px solid #5f5d57;
+    background-color: #BEB7A4;
+    color: black;
+    text-align: center;
+    height: 50px;
+    font-family: 'Dosis', sans-serif;
+}
+
+footer a {
+    position: absolute; /* Posicionado en funcion del contenedor que tenga un tipo de posicionamiento diferente a static */
+    right: 2%;
+    top: -35px;
+    color: #FF3F00;
+}
